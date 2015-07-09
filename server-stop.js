@@ -1,0 +1,1 @@
+#!/bin/bashecho "The following iojs processes were found:"ps aux | grep " iojs " | grep -v grepiojspids=$(ps aux | grep " iojs " | grep -v grep | cut -c10-15)echo "OK, so we will stop these process/es now..."for iojspid in ${iojspids[@]}doecho "Stopping PID :"$iojspidkill -9 $iojspiddoneecho "Done"
