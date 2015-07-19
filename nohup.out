@@ -1,0 +1,80 @@
+
+Running node-supervisor with
+  program 'index.js'
+  --watch '.'
+  --ignore 'node_modules'
+  --extensions 'js|ejs|node|coffee|jade'
+  --exec 'node'
+
+Starting child process with 'node index.js'
+Ignoring directory '/var/www/node/www/node.ur-web.ru/node_modules'.
+Watching directory '/var/www/node/www/node.ur-web.ru' for changes.
+Press rs for restarting the process.
+events.js:141
+      throw er; // Unhandled 'error' event
+            ^
+Error: EBADF: bad file descriptor, read
+    at Error (native)
+events.js:141
+      throw er; // Unhandled 'error' event
+            ^
+Error: listen EADDRINUSE 0.0.0.0:8001
+    at Object.exports._errnoException (util.js:814:11)
+    at exports._exceptionWithHostPort (util.js:837:20)
+    at Server._listen2 (net.js:1218:14)
+    at listen (net.js:1254:10)
+    at Server.listen (net.js:1344:5)
+    at Object.<anonymous> (/var/www/node/www/node.ur-web.ru/index.js:11:24)
+    at Module._compile (module.js:430:26)
+    at Object.Module._extensions..js (module.js:448:10)
+    at Module.load (module.js:355:32)
+    at Function.Module._load (module.js:310:12)
+
+Running node-supervisor with
+  program 'index.js'
+  --watch '.'
+  --ignore 'node_modules'
+  --extensions 'js|ejs|node|coffee|jade'
+  --exec 'node'
+
+Starting child process with 'node index.js'
+Ignoring directory '/var/www/node/www/node.ur-web.ru/node_modules'.
+Watching directory '/var/www/node/www/node.ur-web.ru' for changes.
+Press rs for restarting the process.
+events.js:141
+      throw er; // Unhandled 'error' event
+            ^
+Error: EBADF: bad file descriptor, read
+    at Error (native)
+events.js:141
+      throw er; // Unhandled 'error' event
+            ^
+Error: listen EADDRINUSE 0.0.0.0:8001
+    at Object.exports._errnoException (util.js:814:11)
+    at exports._exceptionWithHostPort (util.js:837:20)
+    at Server._listen2 (net.js:1218:14)
+    at listen (net.js:1254:10)
+    at Server.listen (net.js:1344:5)
+    at Object.<anonymous> (/var/www/node/www/node.ur-web.ru/index.js:11:24)
+    at Module._compile (module.js:430:26)
+    at Object.Module._extensions..js (module.js:448:10)
+    at Module.load (module.js:355:32)
+    at Function.Module._load (module.js:310:12)
+
+Running node-supervisor with
+  program 'index.js'
+  --watch '.'
+  --ignore 'node_modules'
+  --extensions 'js|ejs|node|coffee|jade'
+  --exec 'node'
+
+Starting child process with 'node index.js'
+Ignoring directory '/var/www/node/www/node.ur-web.ru/node_modules'.
+Watching directory '/var/www/node/www/node.ur-web.ru' for changes.
+Press rs for restarting the process.
+events.js:141
+      throw er; // Unhandled 'error' event
+            ^
+Error: EBADF: bad file descriptor, read
+    at Error (native)
+testing 

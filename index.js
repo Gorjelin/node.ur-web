@@ -1,14 +1,8 @@
 'use strict';
-
-var http = require('http'),
-	express = require('express');
-	
-var app = express();
-
-app.get('/', function(req, res){
-	res.send('Привет!');
-});
-
-http.createServer(app).listen(8001, function(){
-	console.log('yello');
+var http = require('http');
+var app = require('./app.js');
+var port = app.get('port');
+require('./routes.js');
+http.createServer(app).listen(port, function(){
+	console.log('testing ');
 })
